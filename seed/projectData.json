@@ -7,5 +7,41 @@
     "github": "https://github.com/lauragupta/IAmATechBloggerNow",
     "technology": "Handlebars, SQL, Sequelize, Express, Heroku and several NPM Node Modules",
     "softskill": "Persistance, Determination, Troubleshooting"
+  },
+  {
+    "title": "get-moving",
+    "description": "This app is a social exercise activity app, where users can view other activities added by people and register to these events.",
+    "image": "/images/getMoving.png",
+    "website": "https://pacific-wildwood-76799.herokuapp.com/",
+    "github": "https://github.com/lauragupta/get-moving",
+    "technology": "JavaScript, Express, Handlebars, MySQL, Sequelize, Simonwep/pickr, bcrypt, dotenv, connect-session-sequelize, Express-handlebars, Express-session, Google Slides",
+    "softskill": "Teamwork, Communication,  Learning New Technologies, Website Planning, Speaking and Presenting, "
+  },
+  {
+    "title": "Back End Shopping E Commerce",
+    "description": "This project uses Object-Relational Mapping (ORM) to manage a database including getting (get), adding (post), editing (put), and deleting(delete). Because this is a back-end project, it does not have a live site, but you can check out my walkthrough video instead.",
+    "image": "/images/backEndShopping.png",
+    "website": "https://watch.screencastify.com/v/VuxVse1urVrip6wRB6hG",
+    "github": "https://github.com/lauragupta/backEndShoppingECommerce",
+    "technology": "JavaScript, MySQL, Sequelize, Insomnia, Express, Mysql2 NPM, Screencastify",
+    "softskill": "creating and narrating a walkthough video"
+  },
+  {
+    "title": "Note Taker",
+    "description": "This is a live server project where you can enter a note title and note text that you can then save it using the disk iocn. The note title will populate on the list at the left-hand side.",
+    "image": "/images/noteTaker.png",
+    "website": "http://fierce-eyrie-06541.herokuapp.com/",
+    "github": "https://github.com/lauragupta/noteTaker",
+    "technology": "JavaScript, Express, Heroku",
+    "softskill": "Persistance, Asking for help, Asking good questions"
+  },
+  {
+    "title": "Feed Me",
+    "description": "If you can't decide where to eat, this restaurant finder site randomly shows a nearby restaurant after the user inputs city name, cost preference, and type of restaurant.",
+    "image": "/images/FeedMe.png",
+    "website": "https://pentazoned.github.io/feed-me/",
+    "github": "https://github.com/lauragupta/feed-me",
+    "technology": "HTML, CSS, Bulma CSS Framework, Javascript, JQuery",
+    "softskill": "Site planning, Teamwork, Independently learning new technology"
   }
 ]
