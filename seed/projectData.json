@@ -1,0 +1,11 @@
+[
+  {
+    "title": "I am a Tech Blogger Now",
+    "description": "This project is a blog viewing and writing platform where users can log into the site to contribute technical blog posts or just read blogs by others without loggin into the site. This project is a full stack application using Model-View-Controller or MVC.",
+    "image": "/images/techBlogger.png",
+    "website": "https://iamatechbloggernow.herokuapp.com/",
+    "github": "https://github.com/lauragupta/IAmATechBloggerNow",
+    "technology": "Handlebars, SQL, Sequelize, Express, Heroku and several NPM Node Modules",
+    "softskill": "Persistance, Determination, Troubleshooting"
+  }
+]

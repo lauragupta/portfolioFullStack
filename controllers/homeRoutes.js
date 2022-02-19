@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const sequelize = require('../config/connection');
-//const { Project, Skill, Employment } = require('../models');
+const { Project } = require('../models');
 
 
 router.get('/', async (req, res) => {
@@ -16,7 +16,7 @@ router.get('/', async (req, res) => {
 
 router.get('/project', async (req, res) => {
   try {
-      const projectData = await Project.findAll({
+      const projectsData = await Project.findAll({
           // include: [
           //     {
           //         model: Skill,
@@ -24,12 +24,13 @@ router.get('/project', async (req, res) => {
           //     },
           // ],
       });
-      const projects = projectData.map((project) => projects.get({ plain: true }));
+      const projects = projectsData.map((project) => project.get({ plain: true }));
       res.render('project', {
         projects
           
       });
   } catch (err) {
+      console.log(err);
       res.status(500).json(err);
   }
 });

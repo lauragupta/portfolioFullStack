@@ -16,7 +16,7 @@ Project.init(
       allowNull: false,
     },
     description: {
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT,
     },
     image: {
       type: DataTypes.STRING,
@@ -26,19 +26,23 @@ Project.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    technology: {
+    github: {
       type: DataTypes.STRING,
-      references: {
-        model: 'skill',
-        key: 'technology',
-      },
+      allowNull: false,
+    },
+    technology: {
+      type: DataTypes.TEXT,
+      // references: {
+      //   model: 'skill',
+      //   key: 'technology',
+      //},
     },
     softskill: {
-      type: DataTypes.STRING,
-      references: {
-        model: 'skill',
-        key: 'softskill',
-      },
+      type: DataTypes.TEXT,
+      // references: {
+      //   model: 'skill',
+      //   key: 'softskill',
+      //},
     },
   },
   {

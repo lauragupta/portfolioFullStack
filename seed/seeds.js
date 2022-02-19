@@ -5,16 +5,15 @@ const projectData = require('./projectData.json');
 //const skillData = require('./skillData.json');
 
 const seedDatabase = async () => {
+  try {
+    console.log("projectDatat", projectData)
     await sequelize.sync({ force: true });
     const projects = await Project.bulkCreate(projectData, {
+      returning: true
     });
-
-    for (const project of projectData) {
-        await Project.create({
-            ...projects,
-      
-        });
-    }
+  } catch (err) {
+    console.log(err);
+  }
 
     process.exit(0);
 };
