@@ -23,4 +23,24 @@ router.get('/', async (req, res) => {
     }
 });
 
+router.get('/project', async (req, res) => {
+  try {
+      const projectData = await Project.findAll({
+          // include: [
+          //     {
+          //         model: Skill,
+          //         attributes: ['technology', 'softskill' ],
+          //     },
+          // ],
+      });
+      const projects = projectData.map((project) => projects.get({ plain: true }));
+      res.render('project', {
+        projects
+          
+      });
+  } catch (err) {
+      res.status(500).json(err);
+  }
+});
+
 module.exports = router;
