@@ -1,5 +1,5 @@
 // const Skill = require('./Skill');
-// const Project = require('./Project');
+const Project = require('./Project');
 // const Employment = require('./Employment');
 
 // Project.hasMany(Skill, {
@@ -12,4 +12,4 @@
 //   onDelete: 'CASCADE'
 // });
 
-// module.exports = { Skill, Project, Employment };
+module.exports = { Project };
