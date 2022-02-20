@@ -2,18 +2,13 @@ body {
   background-color: darkgrey;
 }
 
-nav {
-  background-color: rgb(163, 175, 165);
+.navbar {
+  background-color: lightgray;
 }
 
-.activityCard {
+.card {
   border: 1px solid white;
   padding: 5px;
   margin: 5px;
   background-color: lightgrey;
-}
-
-.pickr-container {
-  text-align: center;
-  margin: 1cm;
 }
