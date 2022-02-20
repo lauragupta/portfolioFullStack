@@ -25,11 +25,11 @@ This is a live site, so you can check it out for yourself! Just follow the link.
 
 Here is my Main Portfolio Page
 
-![Portfolio Main Page](public/Images/portfolioMain.png)
+![Portfolio Main Page](portfolioMain.png)
 
 Here is my Recent Projects page
 
-![Recent Projects Portfolio Page](public/Images/portfolioProjects.png)
+![Recent Projects Portfolio Page](portfolioProjects.png)
 
 
 
