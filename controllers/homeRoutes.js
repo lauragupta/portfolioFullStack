@@ -14,7 +14,7 @@ router.get('/', async (req, res) => {
     }
 });
 
-router.get('/project', async (req, res) => {
+router.get('/projects', async (req, res) => {
   try {
       const projectsData = await Project.findAll({
           // include: [
@@ -25,7 +25,7 @@ router.get('/project', async (req, res) => {
           // ],
       });
       const projects = projectsData.map((project) => project.get({ plain: true }));
-      res.render('project', {
+      res.render('projects', {
         projects
           
       });
