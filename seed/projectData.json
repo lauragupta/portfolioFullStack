@@ -1,5 +1,25 @@
 [
   {
+    "title": "Project Earth - Full Stack App",
+    "alt": "Project Earth",
+    "description": "This app is about social responsibility for the environment.  You can view challenges added by other people. If signed up/logged in, you can create a challenge for yourself and other to make incremental lifestyle changes to have a better realtionship with the Earth.",
+    "image": "/images/projectEarth.png",
+    "website": "https://projectearthecochallenge.herokuapp.com/",
+    "github": "https://github.com/lauragupta/projectEarth",
+    "technology": "React, JavaScript, SASS, CSS, MongoDB, Mongoose, React Router, Express, JWT, bcrypt, dotenv, Bootstrap, Heroku",
+    "softskill": "GRIT!!!, Persistance, Independently Learning New Technologies, Website Planning, Speaking and Presenting, "
+  },
+  {
+    "title": "React Portfolio - React App",
+    "alt": "React Portfolio",
+    "description": "This app is my portfolio, but remade for me to practice using react. I used some Bootstrap elements and then modified them with CSS. Don't forget to take a look at my resume.",
+    "image": "/images/reactPortfolio.png",
+    "website": "https://lauragupta.github.io/lauraReactPortfolio/",
+    "github": "https://github.com/lauragupta/lauraReactPortfolio",
+    "technology": "React, React App, JavaScript, CSS, Express, and Bootstrap",
+    "softskill": " Website Planning"
+  },
+  {
     "title": "Tech Blog - Full Stack App",
     "description": "This project is a blog viewing and writing platform. Users can log into the site to comment on blogs, contribute a technical blog posts, or edit or delete a blog they have written. Without logging into the site, blogs can be read. This project is a full stack application using Model-View-Controller (MVC).",
     "image": "/images/techBlogger.png",
